@@ -294,7 +294,9 @@ eksctl create cluster --name virtualtechbox-cluster \
 --node-type t2.small \
 --nodes 3 \
 
-5--Verify Cluster with below command
+5--create iam role for ec2-eks with policy name of amazoneksworkernodepolicy
+
+6--Verify Cluster with below command
 $ kubectl get nodes
 =============================================================================================================================================================================================
 [D] Integrate Prometheus with EKS and Import Grafana Monitoring Dashboard for Kubernetes
