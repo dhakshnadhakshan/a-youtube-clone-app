@@ -2,15 +2,7 @@ Video -- https://youtu.be/TY6hW7fecuI
 =============================================================================================================================================================================================
 -install visual studio editor in local machine.
 -intall terraform in local machine. need to add terrarorm in environment variable(use chatgpt)
--terraform commands if couldnt do system restart:
-"C:\Terraform\terraform.exe" apply -auto-approve
->>
 
-"C:\Terraform\terraform.exe" plan
->> 
-
-"C:\Terraform\terraform.exe" init
->> 
 
 [A] Let's use Terraform to create an EC2 instance for Jenkins, Docker and SonarQube
 1--main.tf
@@ -108,6 +100,19 @@ sudo apt-get update
 sudo apt-get install trivy -y
 
 4-- aws configure,  terraform init,  terraform plan,  terraform apply -auto-approve
+
+-terraform commands if couldnt do system restart:
+
+"C:\Terraform\terraform.exe" apply -auto-approve
+>>
+
+"C:\Terraform\terraform.exe" plan
+>> 
+
+"C:\Terraform\terraform.exe" init
+>> 
+
+
 =====================================================================================================================================================
 CONFIGURE JENKINS:
 plugin-> eclipse:eclipse termurin, sonarqube:sonarqube scanner, gates:sonar quality gates and quality gates,Nodejs:nodejs,docker:docker,dockere commands,docker api,docker pipeline,docker buildstep.
