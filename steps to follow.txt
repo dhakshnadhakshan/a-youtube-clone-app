@@ -1,0 +1,11 @@
+"Steps to follow"
+terraform to create servers for jenkins docker sonarqube
+configure jenkins
+configure sonarqube and integrate with jenkins
+create pipeline  code for push docker image
+create ec2 for prometheus and graphana
+setup email notification through jenkins
+create aws eks cluster
+integrate eks with prometheus
+configure pipeline to deploy application on eks
+set trigger and verify cicd
